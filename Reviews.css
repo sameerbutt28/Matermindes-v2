@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-image: url(bgfrontpage.png);
+    text-decoration: none;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* justify-content:space-around; */
+flex-wrap: wrap;
+
+}
+
+#navbar .logo {
+    font-size: 55px;
+    margin: 25px;
+    padding: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* text-decoration: none; */
+
+}
+
+#navbar ul {
+    display: flex;
+    border: 4px solid white;
+
+}
+
+#navbar ul li {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+#navbar ul li a:hover {
+    color: darkgrey;
+
+}
+#navbar ul li a.active{
+    color: darkgrey;
+    text-decoration: underline;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.container2{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+/* border: 2px solid white;  */
+/* height: 500px;
+width: 1530px; */
+padding: 50px;
+margin: 5px;  
+
+}
+p{
+   display: flex;
+justify-content: center;
+font-size: 22px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration:none;
+margin: auto;
+padding: auto;
+}
+.instaids :hover{
+    color:rgb(118, 134, 134);
+
+}
+.logo :hover{
+    color: rgb(97, 92, 92);
+
+}

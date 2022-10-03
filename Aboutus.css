@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-image: url(bgfrontpage.png);
+        text-decoration: none;
+
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    /* justify-content:space-around; */
+flex-wrap: wrap;
+position:sticky;
+}
+
+#navbar .logo {
+
+    font-size: 55px;
+    margin: 25px;
+    padding: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#navbar ul {
+    display: flex;
+    border: 4px solid white;
+    border-radius: 6px;
+
+}
+
+#navbar ul li {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+#navbar ul li a:hover {
+    color: darkgrey;
+
+}
+#navbar ul li a.active{
+    color: darkgrey;
+    text-decoration: underline;
+
+}
+.imgmasterminds{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* display: block;
+    width: 50px;
+ margin:70px 230px; */
+}
+#dataofmasterminds
+{
+    font-size: 25px;
+    
+}
+#dataline
+{
+    font-size: 35px;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+.logo :hover{
+    color: rgb(97, 92, 92);
+
+}
